@@ -9,10 +9,10 @@ nav:
     - "Theory": introduction/index.md
   - "B. Correlation":
     - "Theory": correlation/index.md
-    - "Demonstration - Python" : correlation/demo1-python.md
-    - "Practice - Python": correlation/lab1-python.md
-    - "Demonstration - R" : correlation/demo1-r.md
-    - "Practice - R": correlation/lab1-r.md
+    - "Demonstration - Python" : correlation/demo1.md
+    - "Practice - Python": correlation/lab1.md
+    - "Demonstration - R" : correlation/demo2.md
+    - "Practice - R": correlation/lab2.md
   - "C. Linear Regression": 
     - "Theory": linear-regression/index.md
     - "Demonstration" : linear-regression/demo.md
