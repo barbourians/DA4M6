@@ -1,10 +1,67 @@
 # Correlation - Theory
 
-## Topics:
-- Correlation is an association (link/relationship/dependency/similarity)
-- The strength of the correlation
-- Correlation coefficient CAN TELL ...
-- Correlation coefficient DOES NOT ...
+## What is Correlation?
+Correlation is a statistical measure that **describes the strength and direction** of a relationship between two variables. It tells us how changes in one variable are associated with changes in another.  
+
+**Correlation ranges from -1 to 1**
+
+### Positive correlation (+1)
+- As one variable increases, the other also increases (e.g., height and weight).
+
+### Negative correlation (-1)
+- As one variable increases, the other decreases (e.g., temperature and hot chocolate sales).
+
+### No correlation (0)
+- No predictable relationship between the variables.
+
+## Correlation Analysis
+Correlation analysis is a statistical method used to measure the strength and direction of the relationship between two or more variables. It helps determine whether and how strongly variables are related.  
+
+### Strength of the Relationship
+- Strong, moderate, or weak correlation
+- Measured by the correlation coefficient
+
+### Direction of the Relationship
+- **Positive correlation**: As one variable increases, the other also increases.  
+- **Negative correlation**: As one variable increases, the other decreases.  
+- **No correlation**: No pattern or relationship between variables.  
+
+### Types of Correlation Measures
+- Pearson's Correlation Coefficient (r): Measures linear relationships (values between -1 and 1).  
+- Spearman's Rank Correlation (ρ): Measures monotonic relationships (for ranked or non-linear data).  
+- Kendall's Tau (τ):  Another rank-based correlation measure.  
+
+## The correlation coefficient
+- The correlation coefficient is a numerical value that **quantifies the strength and direction** of the relationship between two variables.
+- It ranges from -1 to 1 and is commonly represented by r (for Pearson’s correlation).
+
+### Interpreting the Correlation Coefficient (r):
+
+| Value        | Interpretation |
+|--------------|----------------|
+| +1           | Perfect positive correlation (both variables increase together) |
+| +0.7 to +0.9 | Strong positive correlation. |
+| +0.4 to +0.6 | Moderate positive correlation. |
+| +0.1 to +0.3 | Weak positive correlation. |
+| 0            | No correlation (variables are unrelated). |
+| -0.1 to -0.3 | Weak negative correlation. |
+| -0.4 to -0.6 | Moderate negative correlation. |
+| -0.7 to -0.9 | Strong negative correlation. |
+| -1           | Perfect negative correlation (one variable increases while the other decreases). |
+
+## Correlation Coefficient ~ Example
+
+**Scenario**: A researcher measures study hours and exam scores for five students:
+
+| Study Hours (X) | Exam Score (Y) |
+| --------------- | -------------- |
+|  2              | 50             |
+|  4              | 65             |
+|  6              | 75             |
+|  8              | 85             |
+| 10              | 95             |
+
+Using Pearson's correlation formula, we get **r ≈ 0.98**, indicating a **strong positive correlation**.
 
 ---
 ## Correlation is an association
