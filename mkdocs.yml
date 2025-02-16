@@ -1,4 +1,100 @@
+# Site name
 site_name: DA4M6
+site_description: "DA4 - Module 6:" 
+
+# Navigation menu
+nav:
+  - Welcome: index.md
+  - "A. Intro. to Statistics":
+    - "Theory": introduction/index.md
+    - "Demonstration" : introduction/demo.md
+    - "Practice": introduction/labs.md
+  - "B. Correlation":
+    - "Theory": correlation/index.md
+    - "Demonstration" : correlation/demo.md
+    - "Practice": correlation/labs.md
+  - "C. Linear Regression": 
+    - "Theory": linear-regression/index.md
+    - "Demonstration" : linear-regression/demo.md
+    - "Practice": linear-regression/labs.md
+  - "D. Multiple Linear Regression": 
+    - "Theory": mlr/index.md
+    - "Demonstration" : mlr/demo.md
+    - "Practice": mlr/labs.md
+  - "E. Time series": 
+    - "Theory": time-series/index.md
+    - "Demonstration" : time-series/demo.md
+    - "Practice": time-series/labs.md
+  - "F. Hypothesis Testing": 
+    - "Theory"        : hypothesis-testing/index.md
+    - "Demonstration" : hypothesis-testing/demo.md
+    - "Practice"      : hypothesis-testing/labs.md
+  - "G. Logistic Regression": 
+    - "Theory": logistic-regression/index.md
+    - "Demonstration" : logistic-regression/demo.md
+    - "Practice": logistic-regression/labs.md
+  - "H. Data Mining": 
+    - "Theory": data-mining/index.md
+    - "Demonstration" : data-mining/demo.md
+    - "Practice": data-mining/labs.md
+  - "I. Text Analysis": 
+    - "Theory": text-analysis/index.md
+    - "Demonstration" : text-analysis/demo.md
+    - "Practice": text-analysis/labs.md
+  - "J. Sentiment Analysis": 
+    - "Theory": sentiment-analysis/index.md
+    - "Demonstration" : sentiment-analysis/demo.md
+    - "Practice": sentiment-analysis/labs.md
+  - "K. Intro, to Machine Learning": 
+    - "Theory": machine-learning/index.md
+    - "Demonstration" : machine-learning/demo.md
+    - "Practice": machine-learning/labs.md
+  - "Stretch and Challenge": 
+    - stretch/index.md
+
+# Theme
 theme:
-  name: material
+    feaures:
+      - tabs
+    name: material
+    icon:
+      logo: material/cloud
+    static_templates:
+      - 404.html
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
 
