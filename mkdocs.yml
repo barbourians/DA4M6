@@ -7,12 +7,12 @@ nav:
   - Welcome: index.md
   - "A. Intro. to Statistics":
     - "Theory": introduction/index.md
-    - "Demonstration" : introduction/demo.md
-    - "Practice": introduction/labs.md
   - "B. Correlation":
     - "Theory": correlation/index.md
-    - "Demonstration" : correlation/demo.md
-    - "Practice": correlation/labs.md
+    - "Demonstration - Python" : correlation/demo1-python.md
+    - "Practice - Python": correlation/lab1-python.md
+    - "Demonstration - R" : correlation/demo1-r.md
+    - "Practice - R": correlation/lab1-r.md
   - "C. Linear Regression": 
     - "Theory": linear-regression/index.md
     - "Demonstration" : linear-regression/demo.md
