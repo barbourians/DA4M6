@@ -1,4 +1,4 @@
-# Linear Regression and Predictions ~ SLR and MLR)
+# Linear Regression and Predictions ~ SLR and MLR
 
 Topics:
 * Linear Regression
@@ -6,14 +6,10 @@ Topics:
 * Single vs Multiple
 * Restrictions
 
-
-
-
 ## Linear Regression
  * tries to approximate dataset with a straight line
  * this line is built in a way that minimises residuals (aka errors)
- * once built, this line can then be used to
-   predict output based for known input(s)
+ * once built, this line can then be used to predict output based for known input(s)
 
 ## Features of Linear Regression
 - applied to numeric variables only
