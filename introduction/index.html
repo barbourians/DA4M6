@@ -11,20 +11,22 @@
       
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="introduction/">
+      
+        <link rel="next" href="../correlation/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
     
     
       
-        <title>DA4M6</title>
+        <title>Theory - DA4M6</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
       
       
 
@@ -43,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-da4m6" class="md-skip">
+        <a href="#introduction-to-statistics-theory" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="DA4M6" class="md-header__button md-logo" aria-label="DA4M6" data-md-component="logo">
+    <a href=".." title="DA4M6" class="md-header__button md-logo" aria-label="DA4M6" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome
+              Theory
             
           </span>
         </div>
@@ -173,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="DA4M6" class="md-nav__button md-logo" aria-label="DA4M6" data-md-component="logo">
+    <a href=".." title="DA4M6" class="md-nav__button md-logo" aria-label="DA4M6" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 20q-2.28 0-3.89-1.57Q1 16.85 1 14.58q0-1.95 1.17-3.48 1.18-1.53 3.08-1.95.63-2.3 2.5-3.72Q9.63 4 12 4q2.93 0 4.96 2.04Q19 8.07 19 11q1.73.2 2.86 1.5 1.14 1.28 1.14 3 0 1.88-1.31 3.19T18.5 20Z"/></svg>
@@ -188,19 +190,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -210,7 +203,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -219,17 +211,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -244,7 +238,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             A. Intro. to Statistics
@@ -255,10 +249,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="introduction/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Theory
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -268,6 +283,227 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sample-vs-population" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample vs Population
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sample vs Population">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#population" class="md-nav__link">
+    <span class="md-ellipsis">
+      Population
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#good-and-bad-samples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good and bad samples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Good and bad samples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bad
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sampling-technique-how-to-obtain-a-good-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sampling technique – how to obtain a good sample
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-your-boss-wants-to-calculate-how-much-people-spend-on-average-on-supermarket-shopping-in-the-uk" class="md-nav__link">
+    <span class="md-ellipsis">
+      QUESTION: Your boss wants to calculate how much people spend on average on supermarket shopping in the UK.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primary-vs-secondary-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary vs secondary data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Primary vs secondary data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualitative-quantitative-data-aka-categorical-continuous-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualitative / quantitative data (aka categorical / continuous variables)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qualitative / quantitative data (aka categorical / continuous variables)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categorical-aka-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorical (aka labels)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-aka-numeric" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuous (aka numeric)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of analytics:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of analytics:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descriptive analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostic-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostic analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#predictive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predictive analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescriptive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescriptive analytics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -323,7 +559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="correlation/" class="md-nav__link">
+      <a href="../correlation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -345,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="correlation/demo1/" class="md-nav__link">
+      <a href="../correlation/demo1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -367,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="correlation/lab1/" class="md-nav__link">
+      <a href="../correlation/lab1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -389,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="correlation/demo2/" class="md-nav__link">
+      <a href="../correlation/demo2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -411,7 +647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="correlation/lab2/" class="md-nav__link">
+      <a href="../correlation/lab2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -476,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linear-regression/" class="md-nav__link">
+      <a href="../linear-regression/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -498,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linear-regression/demo/" class="md-nav__link">
+      <a href="../linear-regression/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -520,7 +756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linear-regression/labs/" class="md-nav__link">
+      <a href="../linear-regression/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -585,7 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mlr/" class="md-nav__link">
+      <a href="../mlr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -607,7 +843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mlr/demo/" class="md-nav__link">
+      <a href="../mlr/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -629,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mlr/labs/" class="md-nav__link">
+      <a href="../mlr/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -694,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="time-series/" class="md-nav__link">
+      <a href="../time-series/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -716,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="time-series/demo/" class="md-nav__link">
+      <a href="../time-series/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -738,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="time-series/labs/" class="md-nav__link">
+      <a href="../time-series/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -803,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hypothesis-testing/" class="md-nav__link">
+      <a href="../hypothesis-testing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -825,7 +1061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hypothesis-testing/demo/" class="md-nav__link">
+      <a href="../hypothesis-testing/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -847,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hypothesis-testing/labs/" class="md-nav__link">
+      <a href="../hypothesis-testing/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -912,7 +1148,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logistic-regression/" class="md-nav__link">
+      <a href="../logistic-regression/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -934,7 +1170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logistic-regression/demo/" class="md-nav__link">
+      <a href="../logistic-regression/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -956,7 +1192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="logistic-regression/labs/" class="md-nav__link">
+      <a href="../logistic-regression/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1021,7 +1257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-mining/" class="md-nav__link">
+      <a href="../data-mining/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1043,7 +1279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-mining/demo/" class="md-nav__link">
+      <a href="../data-mining/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1065,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="data-mining/labs/" class="md-nav__link">
+      <a href="../data-mining/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1130,7 +1366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="text-analysis/" class="md-nav__link">
+      <a href="../text-analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1152,7 +1388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="text-analysis/demo/" class="md-nav__link">
+      <a href="../text-analysis/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1174,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="text-analysis/labs/" class="md-nav__link">
+      <a href="../text-analysis/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1239,7 +1475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sentiment-analysis/" class="md-nav__link">
+      <a href="../sentiment-analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1261,7 +1497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sentiment-analysis/demo/" class="md-nav__link">
+      <a href="../sentiment-analysis/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1283,7 +1519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sentiment-analysis/labs/" class="md-nav__link">
+      <a href="../sentiment-analysis/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1348,7 +1584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="machine-learning/" class="md-nav__link">
+      <a href="../machine-learning/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1370,7 +1606,7 @@
   
   
     <li class="md-nav__item">
-      <a href="machine-learning/demo/" class="md-nav__link">
+      <a href="../machine-learning/demo/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1392,7 +1628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="machine-learning/labs/" class="md-nav__link">
+      <a href="../machine-learning/labs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1457,7 +1693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stretch/" class="md-nav__link">
+      <a href="../stretch/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1499,6 +1735,215 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sample-vs-population" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample vs Population
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sample vs Population">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#population" class="md-nav__link">
+    <span class="md-ellipsis">
+      Population
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#good-and-bad-samples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good and bad samples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Good and bad samples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#good" class="md-nav__link">
+    <span class="md-ellipsis">
+      Good
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bad
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sampling-technique-how-to-obtain-a-good-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sampling technique – how to obtain a good sample
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#question-your-boss-wants-to-calculate-how-much-people-spend-on-average-on-supermarket-shopping-in-the-uk" class="md-nav__link">
+    <span class="md-ellipsis">
+      QUESTION: Your boss wants to calculate how much people spend on average on supermarket shopping in the UK.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primary-vs-secondary-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary vs secondary data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Primary vs secondary data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualitative-quantitative-data-aka-categorical-continuous-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Qualitative / quantitative data (aka categorical / continuous variables)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Qualitative / quantitative data (aka categorical / continuous variables)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categorical-aka-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categorical (aka labels)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-aka-numeric" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuous (aka numeric)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of analytics:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of analytics:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Descriptive analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostic-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostic analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#predictive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predictive analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescriptive-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescriptive analytics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1513,8 +1958,139 @@
 
 
 
-<h1 id="welcome-to-da4m6">Welcome to DA4M6<a class="headerlink" href="#welcome-to-da4m6" title="Permanent link">&para;</a></h1>
-<p>Content is coming soon!</p>
+<h1 id="introduction-to-statistics-theory">Introduction to Statistics - Theory<a class="headerlink" href="#introduction-to-statistics-theory" title="Permanent link">&para;</a></h1>
+<h2 id="sample-vs-population">Sample vs Population<a class="headerlink" href="#sample-vs-population" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">Where have you seen these terms before?</p>
+</div>
+<h3 id="population">Population<a class="headerlink" href="#population" title="Permanent link">&para;</a></h3>
+<ul>
+<li>full dataset</li>
+<li>absolutely all the data points required to answer your question</li>
+</ul>
+<h3 id="sample">Sample<a class="headerlink" href="#sample" title="Permanent link">&para;</a></h3>
+<ul>
+<li>subset of population</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Having a population is extremely rare:</p>
+<ul>
+<li>Unreasonably expensive</li>
+<li>Not even possible at all</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Population and Sample define why we need statistics!</p>
+</div>
+<h2 id="good-and-bad-samples">Good and bad samples<a class="headerlink" href="#good-and-bad-samples" title="Permanent link">&para;</a></h2>
+<h3 id="good">Good<a class="headerlink" href="#good" title="Permanent link">&para;</a></h3>
+<ul>
+<li>representative</li>
+</ul>
+<h3 id="bad">Bad<a class="headerlink" href="#bad" title="Permanent link">&para;</a></h3>
+<ul>
+<li>non-representative</li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">What is a good sample? What is a bad sample?</p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">If you have a sample of Scottish drivers ...</p>
+<ul>
+<li>Is this a good or a bad sample?</li>
+<li>Is this a non-representitive sample?</li>
+</ul>
+</div>
+<h2 id="sampling-technique-how-to-obtain-a-good-sample">Sampling technique – how to obtain a good sample<a class="headerlink" href="#sampling-technique-how-to-obtain-a-good-sample" title="Permanent link">&para;</a></h2>
+<div class="admonition question">
+<p class="admonition-title">How do you get a representative sample?</p>
+<p>The only way to guarantee it is to make sure you covered all the data dimensions PLUS have a full data range for each data dimension</p>
+</div>
+<ul>
+<li>Usually it means that you need lots of data points (the more the better)</li>
+<li>So, sampling technique is a science on its own</li>
+<li>Random sampling often returns the best results</li>
+</ul>
+<hr />
+<h2 id="question-your-boss-wants-to-calculate-how-much-people-spend-on-average-on-supermarket-shopping-in-the-uk">QUESTION: Your boss wants to calculate how much people spend on average on supermarket shopping in the UK.<a class="headerlink" href="#question-your-boss-wants-to-calculate-how-much-people-spend-on-average-on-supermarket-shopping-in-the-uk" title="Permanent link">&para;</a></h2>
+<p>You decide to stand by the exit of the nearest Asda and ask people who leave the shop how much they just spent. Name 5 reasons why this sample will NOT be representative.</p>
+<ul>
+<li><strong>Do not</strong> include reasons that can be eliminated by standing by the exit long enough</li>
+<li>a small sample size or people not answering can be resolved if you stay there longer</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Possible answers:</p>
+<ul>
+<li>Looking at one brand only</li>
+<li>Geographical region</li>
+<li>On-line shoppers are excluded</li>
+<li>Date and time of the day/week/month/year ~ Seasonal offers / pay day!</li>
+<li>Superstore vs Metro</li>
+<li>Local offers and promotions, like closing down sale</li>
+<li>people could also lie or round what they spent ~ but this gets eliminated</li>
+</ul>
+</div>
+<hr />
+<h2 id="primary-vs-secondary-data">Primary vs secondary data<a class="headerlink" href="#primary-vs-secondary-data" title="Permanent link">&para;</a></h2>
+<h3 id="primary">Primary<a class="headerlink" href="#primary" title="Permanent link">&para;</a></h3>
+<ul>
+<li>collected yourself</li>
+</ul>
+<h3 id="secondary">Secondary<a class="headerlink" href="#secondary" title="Permanent link">&para;</a></h3>
+<ul>
+<li>not doing it yourself</li>
+<li>so anything else than primary</li>
+</ul>
+<div class="admonition question">
+<p class="admonition-title">Which one is more reliable?</p>
+<p>It depends on the skillset, experience, and subject knowledge of whoever is doing it!</p>
+</div>
+<h2 id="qualitative-quantitative-data-aka-categorical-continuous-variables">Qualitative / quantitative data (aka categorical / continuous variables)<a class="headerlink" href="#qualitative-quantitative-data-aka-categorical-continuous-variables" title="Permanent link">&para;</a></h2>
+<h3 id="categorical-aka-labels">Categorical (aka labels)<a class="headerlink" href="#categorical-aka-labels" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ordinal</li>
+<li>Nominal</li>
+<li>Binomial</li>
+</ul>
+<h3 id="continuous-aka-numeric">Continuous (aka numeric)<a class="headerlink" href="#continuous-aka-numeric" title="Permanent link">&para;</a></h3>
+<ul>
+<li>True continuous data</li>
+<li>Discrete</li>
+<li>Intervals</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Representing categorical values as numbers does NOT turn that into numeric variable</p>
+</div>
+<h2 id="types-of-analytics">Types of analytics:<a class="headerlink" href="#types-of-analytics" title="Permanent link">&para;</a></h2>
+<h3 id="descriptive-analytics">Descriptive analytics<a class="headerlink" href="#descriptive-analytics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Refers to the past</li>
+<li>Describes what happened</li>
+</ul>
+<h3 id="diagnostic-analytics">Diagnostic analytics<a class="headerlink" href="#diagnostic-analytics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Refers to the past</li>
+<li>Explains why something happened</li>
+</ul>
+<h3 id="predictive-analytics">Predictive analytics<a class="headerlink" href="#predictive-analytics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Refers to the future</li>
+<li>Forecasts what is likely to happen</li>
+</ul>
+<h3 id="prescriptive-analytics">Prescriptive analytics<a class="headerlink" href="#prescriptive-analytics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Refers to the future</li>
+<li>Suggests actions to achieve the best possible outcomes</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Examples:</p>
+<ul>
+<li>Descriptive: Sales dropped last quarter.</li>
+<li>Diagnostic: Sales dropped because customer churn increased.</li>
+<li>Predictive: If churn continues, revenue will decline by 10% next quarter.</li>
+<li>Prescriptive: To reduce churn, we should offer targeted discounts to at-risk customers.</li>
+</ul>
+</div>
 
 
 
@@ -1561,10 +2137,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
     
   </body>
