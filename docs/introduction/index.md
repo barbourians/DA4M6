@@ -11,11 +11,11 @@
 ### Sample
 - subset of population
 
-Note: Having population is extremely rare:
-- Unreasonably expensive
-- Not even possible at all
+!!! warning "Having a population is extremely rare:"
+    - Unreasonably expensive
+    - Not even possible at all
 
-!!! note "Population and Sample define why we needs statistics!"
+!!! info "Population and Sample define why we need statistics!"
 
 ## Good and bad samples
 ### Good
@@ -24,16 +24,17 @@ Note: Having population is extremely rare:
 ### Bad
 - non-representative
 
-!!! question "What is a good sample? What is a bad sample"
-    - If you have a sample of Scottish drivers - is this a good or a bad sample?
+!!! question "What is a good sample? What is a bad sample?"
+
+!!! question "If you have a sample of Scottish drivers ..."
+    - Is this a good or a bad sample?
     - Is this a non-representitive sample?
-    - Or is it a bad sample?
 
 
 ## Sampling technique – how to obtain a good sample
 
-!!! question "How do you get a representative sample?
-    The only way to guarantee it is to make sure you covered all the data dimensions PLUS full data range for each data dimension
+!!! question "How do you get a representative sample?"
+    The only way to guarantee it is to make sure you covered all the data dimensions PLUS have a full data range for each data dimension
 
 - Usually it means that you need lots of data points (the more the better)
 - So, sampling technique is a science on its own
@@ -70,19 +71,15 @@ You decide to stand by the exit of the nearest Asda and ask people who leave the
 ## Qualitative / quantitative data (aka categorical / continuous variables)
 ### Categorical (aka labels)
 
-Ordinal
-
-Nominal
-
-Binomial
+- Ordinal
+- Nominal
+- Binomial
 
 ### Continuous (aka numeric)
 
-True continuous data
-
-Discrete
-
-Intervals
+- True continuous data
+- Discrete
+- Intervals
 
 !!! note "Representing categorical values as numbers does NOT turn that into numeric variable"
 
